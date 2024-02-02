@@ -16,7 +16,6 @@ const filter = ref('all')
 
       <div>
         <TaskForm/>
-        <span class="material-symbols-outlined">&#xE8B6;</span>
       </div>
 
       <div class="text-right font-semibold mr-80 mb-6">
