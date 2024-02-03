@@ -13,7 +13,7 @@ const props= defineProps(['tasks'])
     <div class="flex justify-center">
         <div class="flex w-1/2 mb-4 bg-white text-lg font-bold px-4 py-3 justify-between rounded-xl">
             {{ tasks.title }}
-            <div>
+            <div class="flex">
                 <ion-icon @click="taskStore.toggleFav(tasks.id)" class=" cursor-pointer text-xl mx-2" :class="{active:tasks.isFav}" name="heart"></ion-icon>
                 <ion-icon @click="taskStore.deleteTask(tasks.id)" class=" cursor-pointer text-xl mx-2" name="trash"></ion-icon>
 
