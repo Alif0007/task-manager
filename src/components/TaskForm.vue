@@ -8,7 +8,7 @@ function add(){
     if(!newTask.value) return;
         taskStore.addTask({
             title: newTask.value,
-            isFav: true,
+            isFav: false,
             id: Math.floor(Math.random() * 1000)
         })
     
