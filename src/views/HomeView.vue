@@ -11,7 +11,7 @@ const filter = ref('all')
 
 <template>
   <main>
-    <div class="bg-gray-100 h-full" >
+    <div class="bg-gray-100 main-container" >
       <h1 class="text-3xl font-bold text-center pt-4 mb-8">Task Manager</h1>
 
       <div>
@@ -45,5 +45,7 @@ const filter = ref('all')
 
 <style>
 
-
+.main-container{
+  min-height: 100vh;
+}
 </style>
